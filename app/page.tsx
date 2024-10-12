@@ -1,5 +1,8 @@
+import { About } from "@/components/About";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
+import { Hosts } from "@/components/Hosts";
+import { Timer } from "@/components/Timer";
 import { Metadata } from "next";
 
 // Task Details:
@@ -22,9 +25,13 @@ export default function Home() {
     <div className="w-full flex flex-col min-h-screen font-jakarta">
       <Header />
 
-      <div className="w-[90%] xl:w-[85%] mx-auto flex flex-col ">
-        <Hero />
-      </div>
+      <Hero />
+
+      <Timer targetDate="2024-10-31T23:59:59Z" />
+
+      <About />
+
+      <Hosts />
     </div>
   );
 }

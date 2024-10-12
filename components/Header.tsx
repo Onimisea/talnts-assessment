@@ -25,7 +25,7 @@ export const Header = () => {
         <Search />
       </div>
 
-      <div className="hidden sm:flex md:hidden border-[0.5px] border-[#c4c4c4] rounded-full w-[40px] h-[40px] items-center justify-center">
+      <div className="hidden sm2:flex md:hidden border-[0.5px] border-[#c4c4c4] rounded-full w-[40px] h-[40px] items-center justify-center">
         <IoIosSearch size={20} />
       </div>
 

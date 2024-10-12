@@ -35,7 +35,8 @@ const config: Config = {
       colors: {
         primary_text: "#121212",
         primary_blue: "#100E86",
-				primary_grey: "#292929",
+        grey_dark: "#292929",
+        grey_light: "#f5f5f5",
 
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",

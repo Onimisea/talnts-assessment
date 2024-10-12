@@ -17,7 +17,7 @@ export const Search = () => {
       />
 
       <div className="w-fit bg-grey_light px-6 h-full flex items-center justify-center">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 cursor-pointer">
           <span className="text-md">All</span>
 
           <HiMiniChevronDown size={15} />

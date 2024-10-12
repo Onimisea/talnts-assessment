@@ -1,4 +1,5 @@
 import { Header } from "@/components/Header";
+import { Hero } from "@/components/Hero";
 import { Metadata } from "next";
 
 // Task Details:
@@ -18,8 +19,12 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen w-full font-jakarta">
+    <div className="w-full flex flex-col min-h-screen font-jakarta">
       <Header />
+
+      <div className="w-[90%] xl:w-[85%] mx-auto flex flex-col ">
+        <Hero />
+      </div>
     </div>
   );
 }

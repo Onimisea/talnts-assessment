@@ -13,9 +13,13 @@ export const Hosts = () => {
           <h2 className="text-xl md:text-2xl font-bold mb-6">Host</h2>
 
           <div className="flex gap-6 flex-col md:flex-row items-center justify-center ">
-            <Image src={host.img} alt={host.name} className="w-[20%]" />
+            <Image
+              src={host.img}
+              alt={host.name}
+              className="w-full md:w-[20%]"
+            />
 
-            <div className="flex flex-col gap-2 w-[60%]">
+            <div className="flex flex-col gap-2 w-full md:w-[60%]">
               <p className="text-[#474747]">{host.username}</p>
               <p className="text-black font-bold">{host.name}</p>
               <p className="leading-[35px]">{host.description}</p>
@@ -55,9 +59,13 @@ export const Hosts = () => {
                 key={i}
                 className="flex gap-6 flex-col md:flex-row items-center justify-center "
               >
-                <Image src={host.img} alt={host.name} className="w-[20%]" />
+                <Image
+                  src={host.img}
+                  alt={host.name}
+                  className="w-full md:w-[20%]"
+                />
 
-                <div className="flex flex-col gap-2 w-[60%]">
+                <div className="flex flex-col gap-2 w-full md:w-[60%]">
                   <p className="text-[#474747]">{host.username}</p>
                   <p className="text-black font-bold">{host.name}</p>
                   <p className="leading-[35px]">{host.description}</p>
@@ -95,15 +103,15 @@ export const Hosts = () => {
             Guest Instructors
           </h2>
 
-          <div className="flex flex-col md:flex-row gap-10 w-[85%] justify-between">
+          <div className="flex flex-col md:flex-row gap-10 w-full md:w-[85%] justify-between">
             {guests.map((host, i) => (
               <div
                 key={i}
-                className="flex gap-6 flex-col items-center justify-center w-[30%]"
+                className="flex gap-6 flex-col items-center justify-center w-full md:w-[30%]"
               >
-                <Image src={host.img} alt={host.name} className="" />
+                <Image src={host.img} alt={host.name} className="w-full" />
 
-                <div className="flex flex-col gap-2 w-[95%]">
+                <div className="flex flex-col gap-2 w-full md:w-[95%]">
                   <p className="text-[#474747]">{host.username}</p>
                   <p className="text-black font-bold">{host.name}</p>
                   <p className="leading-[35px]">{host.description}</p>

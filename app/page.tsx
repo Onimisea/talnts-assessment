@@ -1,4 +1,5 @@
 import { About } from "@/components/About";
+import { BootcampContent } from "@/components/BootcampContent";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Hosts } from "@/components/Hosts";
@@ -32,6 +33,8 @@ export default function Home() {
       <About />
 
       <Hosts />
+
+      <BootcampContent />
     </div>
   );
 }

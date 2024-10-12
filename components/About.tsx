@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <div className="w-[90%] xl:w-[85%] mx-auto flex flex-col ">
       <div className="w-full flex flex-col items-center justify-center py-16 gap-10">
-        <h2 className="text-2xl md:text-3xl font-bold">About this Bootcamp</h2>
+        <h2 className="text-xl md:text-2xl font-bold">About this Bootcamp</h2>
 
         <div className="w-full h-[200px] md:w-[80%] sm:h-[300px] sm2:h-[400px] md:h-[450px] lg:h-[500px] aspect-w-16 aspect-h-9">
           <iframe

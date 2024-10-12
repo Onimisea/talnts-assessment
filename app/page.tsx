@@ -1,3 +1,4 @@
+import { Header } from "@/components/Header";
 import { Metadata } from "next";
 
 // Task Details:
@@ -17,13 +18,8 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen w-full font-jakarta">
-      <div className="flex flex-col justify-center items-center w-[90%] sm:w-[85%] md:w-[80%] mx-auto ">
-        <h1 className="text-4xl font-bold ">
-          Foundation of Android Development
-        </h1>
-        <p className="text-2xl ">Coding Assessment</p>
-      </div>
+    <div className="flex flex-col min-h-screen w-full font-jakarta">
+      <Header />
     </div>
   );
 }

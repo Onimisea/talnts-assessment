@@ -33,6 +33,10 @@ const config: Config = {
         "95": "95",
       },
       colors: {
+        primary_text: "#121212",
+        primary_blue: "#100E86",
+				primary_grey: "#292929",
+
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

@@ -15,7 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jakarta.variable} antialiased bg-white text-[#121212]`}>
+      <body
+        className={`${jakarta.variable} antialiased bg-white text-primary_text`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="light"

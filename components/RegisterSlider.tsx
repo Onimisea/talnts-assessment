@@ -35,7 +35,7 @@ export const RegisterSlider = () => {
               className="w-full h-full object-cover"
             />
 
-            <p className="text-white font-bold text-center absolute bottom-[100px] z-75 w-full text-xl px-6">
+            <p className="text-white font-bold text-center absolute bottom-[200px] z-75 w-full text-xl px-6">
               All-in-one platform to learn, grow, and monetize your skills
             </p>
           </div>
@@ -48,7 +48,7 @@ export const RegisterSlider = () => {
               className="w-full h-full object-cover"
             />
 
-            <p className="text-white font-bold text-center absolute bottom-[100px] z-75 w-full text-xl px-6">
+            <p className="text-white font-bold text-center absolute bottom-[200px] z-75 w-full text-xl px-6">
               As a creator, monetize your knowledge and skills selling digital
               products
             </p>

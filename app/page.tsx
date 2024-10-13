@@ -1,8 +1,12 @@
 import { About } from "@/components/About";
 import { BootcampContent } from "@/components/BootcampContent";
+import { BootcampIncludes } from "@/components/BootcampIncludes";
+import { Certificate } from "@/components/Certificate";
+import { Faq } from "@/components/Faq";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Hosts } from "@/components/Hosts";
+import { HotReviews } from "@/components/HotReviews";
 import { LiveClass } from "@/components/LiveClass";
 import { Requirements } from "@/components/Requirements";
 import { Timer } from "@/components/Timer";
@@ -41,6 +45,14 @@ export default function Home() {
       <LiveClass />
 
       <Requirements />
+
+      <BootcampIncludes />
+
+      <Certificate />
+
+      <Faq />
+
+      <HotReviews />
     </div>
   );
 }

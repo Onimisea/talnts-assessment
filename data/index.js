@@ -6,6 +6,7 @@ import instrt2 from "../public/instrt2.png";
 import instrt3 from "../public/instrt3.png";
 import lc1 from "../public/lc1.png";
 import lc2 from "../public/lc2.png";
+import revpic from "@/public/revpic.png";
 
 export const host = {
   username: "@jessno1",
@@ -122,5 +123,35 @@ export const requirements = [
   {
     id: 6,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
+];
+
+export const reviews = [
+  {
+    img: revpic,
+    name: "John David",
+    courseTitle: "Introduction to Android Development",
+    ratings: 5,
+    review:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper quam pulvinar interdum porttitor elit quis elementum duis curabitur. Adipiscing ac ut eros, sed aenean justo lacinia ornare consectetur. Viverra vel ornare mauris donec aenean gravida aliquet vestibulum quam. Vitae ullamcorper dignissim auctor quis volutpat morbi arcu blandit massa. Viverra vel ornare mauris donec aenean gravida aliquet vestibulum quam. Vitae ullamcorper dignissim auctor quis volutpat morbi arcu blandit massa.",
+    datetime: "30th Oct, 2024. 10:00 AM",
+  },
+  {
+    img: revpic,
+    name: "John David",
+    courseTitle: "Introduction to Android Development",
+    ratings: 3,
+    review:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper quam pulvinar interdum porttitor elit quis elementum duis curabitur. Adipiscing ac ut eros, sed aenean justo lacinia ornare consectetur. Viverra vel ornare mauris donec aenean gravida aliquet vestibulum quam. Vitae ullamcorper dignissim auctor quis volutpat morbi arcu blandit massa. Viverra vel ornare mauris donec aenean gravida aliquet vestibulum quam. Vitae ullamcorper dignissim auctor quis volutpat morbi arcu blandit massa.",
+    datetime: "30th Oct, 2024. 10:00 AM",
+  },
+  {
+    img: revpic,
+    name: "John David",
+    courseTitle: "Introduction to Android Development",
+    ratings: 1,
+    review:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper quam pulvinar interdum porttitor elit quis elementum duis curabitur. Adipiscing ac ut eros, sed aenean justo lacinia ornare consectetur. Viverra vel ornare mauris donec aenean gravida aliquet vestibulum quam. Vitae ullamcorper dignissim auctor quis volutpat morbi arcu blandit massa. Viverra vel ornare mauris donec aenean gravida aliquet vestibulum quam. Vitae ullamcorper dignissim auctor quis volutpat morbi arcu blandit massa.",
+    datetime: "30th Oct, 2024. 10:00 AM",
   },
 ];

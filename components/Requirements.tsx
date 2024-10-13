@@ -15,7 +15,7 @@ export const Requirements = () => {
           Requirements for this Bootcamp
         </h2>
 
-        <section className="w-[80%] sm:w-[85%] md:w-[90%] mx-auto max-w-screen-2xl flex items-center justify-between text-md gap-24">
+        <section className="w-full md:w-[90%] mx-auto max-w-screen-2xl flex items-center justify-between text-md gap-24">
           <Swiper
             breakpoints={{
               480: {

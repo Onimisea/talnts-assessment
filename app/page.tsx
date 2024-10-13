@@ -3,6 +3,8 @@ import { BootcampContent } from "@/components/BootcampContent";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
 import { Hosts } from "@/components/Hosts";
+import { LiveClass } from "@/components/LiveClass";
+import { Requirements } from "@/components/Requirements";
 import { Timer } from "@/components/Timer";
 import { Metadata } from "next";
 
@@ -35,6 +37,10 @@ export default function Home() {
       <Hosts />
 
       <BootcampContent />
+
+      <LiveClass />
+
+      <Requirements />
     </div>
   );
 }

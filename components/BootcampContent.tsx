@@ -6,7 +6,7 @@ import {
   AccordionTrigger,
 } from "./ui/accordion";
 import bc1 from "@/public/bc1.png";
-import bc2 from "@/public/bc2.png";
+import bc2 from "@/public/nc2.png";
 import Image from "next/image";
 
 export const BootcampContent = () => {
@@ -40,12 +40,12 @@ export const BootcampContent = () => {
                 </div>
                 <div className="w-full flex gap-4 border-[1px] border-[#c7c7c7] rounded-[10px] p-3 items-center">
                   <Image
-                    src={bc1}
+                    src={bc2}
                     alt="Introduction"
                     className="w-[30px] h-[30px]"
                   />
 
-                  <span>Working with Flutter</span>
+                  <span>Assignment Title</span>
                 </div>
               </div>
             </AccordionContent>
@@ -70,12 +70,12 @@ export const BootcampContent = () => {
                 </div>
                 <div className="w-full flex gap-4 border-[1px] border-[#c7c7c7] rounded-[10px] p-3 items-center">
                   <Image
-                    src={bc1}
+                    src={bc2}
                     alt="Introduction"
                     className="w-[30px] h-[30px]"
                   />
 
-                  <span>Working with Flutter</span>
+                  <span>Assignment Title</span>
                 </div>
               </div>
             </AccordionContent>
@@ -100,12 +100,12 @@ export const BootcampContent = () => {
                 </div>
                 <div className="w-full flex gap-4 border-[1px] border-[#c7c7c7] rounded-[10px] p-3 items-center">
                   <Image
-                    src={bc1}
+                    src={bc2}
                     alt="Introduction"
                     className="w-[30px] h-[30px]"
                   />
 
-                  <span>Working with Flutter</span>
+                  <span>Assignment Title</span>
                 </div>
               </div>
             </AccordionContent>
@@ -130,12 +130,12 @@ export const BootcampContent = () => {
                 </div>
                 <div className="w-full flex gap-4 border-[1px] border-[#c7c7c7] rounded-[10px] p-3 items-center">
                   <Image
-                    src={bc1}
+                    src={bc2}
                     alt="Introduction"
                     className="w-[30px] h-[30px]"
                   />
 
-                  <span>Working with Flutter</span>
+                  <span>Assignment Title</span>
                 </div>
               </div>
             </AccordionContent>

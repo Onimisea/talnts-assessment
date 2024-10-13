@@ -4,6 +4,8 @@ import host3 from "../public/host3.png";
 import instrt1 from "../public/instrt1.png";
 import instrt2 from "../public/instrt2.png";
 import instrt3 from "../public/instrt3.png";
+import lc1 from "../public/lc1.png";
+import lc2 from "../public/lc2.png";
 
 export const host = {
   username: "@jessno1",
@@ -66,5 +68,59 @@ export const guests = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Semper quam pulvinar interdum porttitor elit quis elementum duis curabitur.",
     img: instrt3,
+  },
+];
+
+export const liveclasses = [
+  {
+    day: "Every Tuesday",
+    dateIcon: lc1,
+    duration: "4:00PM - 6:00PM (WAT)",
+    durationIcon: lc2,
+  },
+  {
+    day: "Every Tuesday",
+    dateIcon: lc1,
+    duration: "4:00PM - 6:00PM (WAT)",
+    durationIcon: lc2,
+  },
+  {
+    day: "Every Tuesday",
+    dateIcon: lc1,
+    duration: "4:00PM - 6:00PM (WAT)",
+    durationIcon: lc2,
+  },
+  {
+    day: "Every Tuesday",
+    dateIcon: lc1,
+    duration: "4:00PM - 6:00PM (WAT)",
+    durationIcon: lc2,
+  },
+];
+
+export const requirements = [
+  {
+    id: 1,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
+  {
+    id: 2,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
+  {
+    id: 3,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
+  {
+    id: 4,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
+  {
+    id: 5,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+  },
+  {
+    id: 6,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
   },
 ];

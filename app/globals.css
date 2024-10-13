@@ -6,12 +6,23 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.swiper-pagination span.swiper-pagination-bullet {
+  background-color: white;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.swiper-pagination span.swiper-pagination-bullet-active {
+  background-color: #100e86;
+  width: 12px !important;
+  height: 12px !important;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
 }
-
 
 @layer base {
   :root {

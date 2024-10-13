@@ -1,5 +1,4 @@
 import React from "react";
-import certificate from "@/public/certificate.png";
 import Image from "next/image";
 import { reviews } from "@/data";
 import { RiArrowRightSFill } from "react-icons/ri";

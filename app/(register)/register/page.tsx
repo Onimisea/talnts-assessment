@@ -20,7 +20,7 @@ export default function Home() {
         <RegisterSlider />
       </div>
 
-      <div className="w-full md:w-[45%] flex flex-col justify-between px-8 bg-white">
+      <div className="w-full md:w-[45%] flex flex-col justify-between px-8 bg-white pb-12">
         <Link href="/" className="flex items-center gap-2 ">
           <Image src={logo} alt="Talnts App" width={30} height={30} />
           <span className="text-md text-black">App</span>
